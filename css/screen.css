@@ -138,7 +138,7 @@ blockquote {
     font-size: 23px;
     line-height: 32px;
     margin: 0 0 24px;
-    font-family: "Times New Roman", serif;
+    font-family: "Droid Serif", serif;
 }
 
 blockquote * {
@@ -230,16 +230,34 @@ a:focus {
 .c-article__body{
     padding: 0 24px;    
 }
+
+.c-article__date{
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.c-article__blockquote{
+    color: #00b37d;
+    background-color: #f2faf8;
+    padding: 25px;
+    font-family: "droid-serif", georgia, serif;
+}
 /* Small devices (landscape phones, 576px and up) */
 
+@media (min-width: 300px){
+    h1{
+        font-size: 36px;
+        line-height: 40px;
+    }
+}
 @media (min-width: 576px) {}
 
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
     h1 {
-        font-size: 58px;
-        line-height: 64px;
+        font-size: 46px;
+        line-height: 56px;
     }
     .c-article__header{
         padding: 48px 48px 24px;
@@ -255,6 +273,10 @@ a:focus {
 /* Large devices (landscape tablets, desktops, 992px and up) */
 
 @media (min-width: 992px) {
+    h1{
+        font-size: 52px;
+        line-height: 64px;
+    }
     .c-author{
         display: block;
     }
@@ -272,6 +294,7 @@ a:focus {
     .c-author__content{
         width: 75%;
     }
+    
 }
 
 /*
@@ -287,7 +310,12 @@ a:focus {
 }
 /* Extra large devices (large desktops, 1200px and up) */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+    h1{
+        font-size: 58px;
+        line-height: 72px;
+    }
+}
 
 /*
     Print styles.
