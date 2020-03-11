@@ -193,7 +193,7 @@ a:focus {
 .c-author__meta{
     font-size: 14px;
     font-family: "Inter", "Helvetica Neue", Helvetica, arial, sans-serif;
-    line-height: 24;
+    line-height: 24px;
 }
 
 .c-author__image{
